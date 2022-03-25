@@ -2,7 +2,7 @@ import React from "react";
 import imag from "../images/cathy.png"
 import star from "../images/star.png"
 
-export default function Card(){
+export default function Card(props){
     return(
         <div className="card">
             <img src={imag} className="card--image"></img>
